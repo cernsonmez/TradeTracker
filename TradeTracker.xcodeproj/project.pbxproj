@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		147114372A2C741E00121359 /* TradeTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147114362A2C741E00121359 /* TradeTrackerApp.swift */; };
-		147114392A2C741E00121359 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147114382A2C741E00121359 /* ContentView.swift */; };
+		147114392A2C741E00121359 /* TradeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147114382A2C741E00121359 /* TradeListView.swift */; };
 		1471143B2A2C741F00121359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1471143A2A2C741F00121359 /* Assets.xcassets */; };
 		1471143E2A2C741F00121359 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1471143D2A2C741F00121359 /* Preview Assets.xcassets */; };
 		147114482A2C742000121359 /* TradeTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147114472A2C742000121359 /* TradeTrackerTests.swift */; };
 		147114522A2C742000121359 /* TradeTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147114512A2C742000121359 /* TradeTrackerUITests.swift */; };
 		147114542A2C742000121359 /* TradeTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147114532A2C742000121359 /* TradeTrackerUITestsLaunchTests.swift */; };
+		147114622A2C754500121359 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147114612A2C754500121359 /* AppViewModel.swift */; };
+		147114672A2C770B00121359 /* TradeRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147114662A2C770B00121359 /* TradeRowView.swift */; };
+		1471146A2A2C777500121359 /* Trade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147114692A2C777500121359 /* Trade.swift */; };
+		1471146C2A2C779700121359 /* TradeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471146B2A2C779700121359 /* TradeInfo.swift */; };
+		1471146E2A2C77B100121359 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471146D2A2C77B100121359 /* Formatter.swift */; };
+		147114702A2C784900121359 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471146F2A2C784900121359 /* BackgroundView.swift */; };
+		147114722A2C787E00121359 /* AddTradeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147114712A2C787E00121359 /* AddTradeSymbol.swift */; };
+		147114742A2C797900121359 /* TradesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147114732A2C797900121359 /* TradesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		147114332A2C741E00121359 /* TradeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147114362A2C741E00121359 /* TradeTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeTrackerApp.swift; sourceTree = "<group>"; };
-		147114382A2C741E00121359 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		147114382A2C741E00121359 /* TradeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeListView.swift; sourceTree = "<group>"; };
 		1471143A2A2C741F00121359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1471143D2A2C741F00121359 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		147114432A2C742000121359 /* TradeTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +52,14 @@
 		1471144D2A2C742000121359 /* TradeTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		147114512A2C742000121359 /* TradeTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeTrackerUITests.swift; sourceTree = "<group>"; };
 		147114532A2C742000121359 /* TradeTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		147114612A2C754500121359 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		147114662A2C770B00121359 /* TradeRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeRowView.swift; sourceTree = "<group>"; };
+		147114692A2C777500121359 /* Trade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trade.swift; sourceTree = "<group>"; };
+		1471146B2A2C779700121359 /* TradeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeInfo.swift; sourceTree = "<group>"; };
+		1471146D2A2C77B100121359 /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
+		1471146F2A2C784900121359 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		147114712A2C787E00121359 /* AddTradeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTradeSymbol.swift; sourceTree = "<group>"; };
+		147114732A2C797900121359 /* TradesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +110,10 @@
 		147114352A2C741E00121359 /* TradeTracker */ = {
 			isa = PBXGroup;
 			children = (
+				147114682A2C775700121359 /* DataObject */,
+				147114632A2C76D000121359 /* View */,
+				147114602A2C752700121359 /* ObservableObject */,
 				147114362A2C741E00121359 /* TradeTrackerApp.swift */,
-				147114382A2C741E00121359 /* ContentView.swift */,
 				1471143A2A2C741F00121359 /* Assets.xcassets */,
 				1471143C2A2C741F00121359 /* Preview Content */,
 			);
@@ -125,6 +143,36 @@
 				147114532A2C742000121359 /* TradeTrackerUITestsLaunchTests.swift */,
 			);
 			path = TradeTrackerUITests;
+			sourceTree = "<group>";
+		};
+		147114602A2C752700121359 /* ObservableObject */ = {
+			isa = PBXGroup;
+			children = (
+				147114612A2C754500121359 /* AppViewModel.swift */,
+				147114732A2C797900121359 /* TradesViewModel.swift */,
+			);
+			path = ObservableObject;
+			sourceTree = "<group>";
+		};
+		147114632A2C76D000121359 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				147114382A2C741E00121359 /* TradeListView.swift */,
+				147114662A2C770B00121359 /* TradeRowView.swift */,
+				1471146F2A2C784900121359 /* BackgroundView.swift */,
+				147114712A2C787E00121359 /* AddTradeSymbol.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		147114682A2C775700121359 /* DataObject */ = {
+			isa = PBXGroup;
+			children = (
+				147114692A2C777500121359 /* Trade.swift */,
+				1471146B2A2C779700121359 /* TradeInfo.swift */,
+				1471146D2A2C77B100121359 /* Formatter.swift */,
+			);
+			path = DataObject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				147114392A2C741E00121359 /* ContentView.swift in Sources */,
+				1471146C2A2C779700121359 /* TradeInfo.swift in Sources */,
+				1471146A2A2C777500121359 /* Trade.swift in Sources */,
+				147114702A2C784900121359 /* BackgroundView.swift in Sources */,
+				147114672A2C770B00121359 /* TradeRowView.swift in Sources */,
+				1471146E2A2C77B100121359 /* Formatter.swift in Sources */,
+				147114392A2C741E00121359 /* TradeListView.swift in Sources */,
+				147114722A2C787E00121359 /* AddTradeSymbol.swift in Sources */,
 				147114372A2C741E00121359 /* TradeTrackerApp.swift in Sources */,
+				147114622A2C754500121359 /* AppViewModel.swift in Sources */,
+				147114742A2C797900121359 /* TradesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
